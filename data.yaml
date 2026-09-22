@@ -1,0 +1,11 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 6
+names: ['cardboard', 'glass', 'metal','paper','plastic','trash']
+roboflow:
+  workspace: divya-xgcv7
+  project: waste-detection-pds5y
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/divya-xgcv7/waste-detection-pds5y/dataset/1
